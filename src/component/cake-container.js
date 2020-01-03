@@ -24,6 +24,11 @@ const mapStateToProps = state => {
     }
 };
 
+/**
+ * map redux dispatch to props
+ * @param dispatch
+ * @returns {{buyCake: (function(): *)}}
+ */
 const mapDispatchToProps = dispatch => {
 
     return {
