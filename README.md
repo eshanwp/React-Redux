@@ -69,3 +69,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ### V1.0 => Basic Application
 ### V1.1 => React Redux + Hook Application
+### V1.2 => Multiple Reducer Application
