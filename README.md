@@ -67,6 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-### V1.0 => Basic Application
+### V1.0 => Basic Application -> npm install redux react-redux
 ### V1.1 => React Redux + Hook Application
 ### V1.2 => Multiple Reducer Application
+### V1.3 => Redux with logger middleware Application -> npm install redux-logger
