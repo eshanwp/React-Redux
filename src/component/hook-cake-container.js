@@ -1,5 +1,6 @@
 import React from "react";
-import {useSelector} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
+import {buyCake} from "../redux/cake/cake-action";
 const HookCakeContainer = (props) => {
 
     /**
@@ -10,6 +11,11 @@ const HookCakeContainer = (props) => {
      */
     const numOfCakes = useSelector(state => state.numOfCakes);
 
+    /**
+     * This is a hook function. dispatchHook which is use to dispatch an action with react-redux.
+     *
+     */
+    const dispatch = useDispatch();
 
     /**
      * view of cake container page
@@ -17,7 +23,7 @@ const HookCakeContainer = (props) => {
     return (
         <div>
             <h2>Number of cakes -  {numOfCakes}</h2>
-            <button>Buy Cake</button>
+            <button onClick={() => dispatch(buyCake())}>Buy Cake</button>
         </div>
     );
 };
