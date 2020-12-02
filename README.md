@@ -72,3 +72,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ### V1.2 => Multiple Reducer Application
 ### V1.3 => Redux with logger middleware Application -> npm install redux-logger
 ### V1.3 => Redux with axios and redux-thunk -> npm install axios redux-thunk
+
+Esh  1
